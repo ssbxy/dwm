@@ -64,6 +64,7 @@ static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont,
 static const char *termcmd[]  = { "kitty", NULL };
 static const char *webbrowser[] = { "firefox", NULL };
 static const char *screensnip[] = { "/bin/sh", "-c", "~/Scripts/screensnip.sh", NULL };
+static const char *screenlock[] = { "slock", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
@@ -71,6 +72,7 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_Return, spawn,          {.v = termcmd } },
   { MODKEY,                       XK_w,      spawn,          {.v = webbrowser } },
   { MODKEY|ShiftMask,             XK_s,      spawn,          {.v = screensnip } },
+  { MODKEY,                       XK_l,      spawn,          {.v = screenlock } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
