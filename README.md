@@ -10,11 +10,11 @@
 Personal fork of DWM                   
 
 ## Patches
-* [attachbelow] (https://dwm.suckless.org/patches/attachbelow/)
-* [alwayscenter] (https://dwm.suckless.org/patches/alwayscenter/)
-* [fullgaps-toggle] (https://dwm.suckless.org/patches/fullgaps/)
-* [warp] (https://dwm.suckless.org/patches/warp/)
-* [pertag] (https://dwm.suckless.org/patches/pertag/)
+* [attachbelow](https://dwm.suckless.org/patches/attachbelow/)
+* [alwayscenter](https://dwm.suckless.org/patches/alwayscenter/)
+* [fullgaps-toggle](https://dwm.suckless.org/patches/fullgaps/)
+* [warp](https://dwm.suckless.org/patches/warp/)
+* [pertag](https://dwm.suckless.org/patches/pertag/)
 
 ## Dependencies
 ```bash
