@@ -17,9 +17,13 @@ Personal fork of DWM
 * [pertag](https://dwm.suckless.org/patches/pertag/)
 
 ## Dependencies
+### Pacman
 ```bash
-sudo pacman -S base-devel git libx11 libxft xorg-server xorg-xinit kitty picom
+sudo pacman -S base-devel git libx11 libxft xorg-server xorg-xinit kitty picom feh
 ```
+### Suckless
+* [slstatus](https://github.com/ssbxy/slstatus)
+* [dmenu](https://tools.suckless.org/dmenu/)
 
 ## .xinitrc
 ```bash
@@ -30,6 +34,10 @@ sudo pacman -S base-devel git libx11 libxft xorg-server xorg-xinit kitty picom
 # Executed by startx (run your window manager from here)
 
 ## DWM
+feh --bg-fill ~/Pictures/wallpaper.png
+xrdb ~/.Xresources
+picom &
+slstatus &
 exec dwm
 ```
 
