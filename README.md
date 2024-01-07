@@ -1,11 +1,15 @@
-# ssbxy DWM Fork
+```
          _               
  ___ ___| |____  ___   _ 
 / __/ __| '_ \ \/ / | | |
 \__ \__ \ |_) >  <| |_| |
 |___/___/_.__/_/\_\\__, |
                    |___/ 
-                   
+```                   
+
+# ssbxy DWM Fork
+Personal fork of DWM                   
+
 ## Patches
 
 - attachbelow
