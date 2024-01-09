@@ -15,17 +15,20 @@ Personal fork of DWM
 * [fullgaps-toggle](https://dwm.suckless.org/patches/fullgaps/)
 * [warp](https://dwm.suckless.org/patches/warp/)
 * [pertag](https://dwm.suckless.org/patches/pertag/)
+* [hide vacant tags](https://dwm.suckless.org/patches/hide_vacant_tags/)
 
 ## Dependencies
 ### Pacman
 ```bash
-sudo pacman -S base-devel git libx11 libxft xorg-server xorg-xinit kitty picom feh
+sudo pacman -S base-devel git libx11 libxft xorg-server xorg-xinit
 ```
-### Suckless
+## Recommended Tools
 * [slstatus](https://github.com/ssbxy/slstatus)
 * [dmenu](https://tools.suckless.org/dmenu/)
+* [slock](https://tools.suckless.org/slock/)
 
 ## .xinitrc
+### Example
 ```bash
 #!/bin/sh
 #
