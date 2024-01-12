@@ -16,6 +16,7 @@ Personal fork of DWM
 * [warp](https://dwm.suckless.org/patches/warp/)
 * [pertag](https://dwm.suckless.org/patches/pertag/)
 * [hide vacant tags](https://dwm.suckless.org/patches/hide_vacant_tags/)
+* [splitstatus](https://dwm.suckless.org/patches/splitstatus/)
 
 ## Dependencies
 ### Pacman
